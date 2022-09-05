@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+}
+
+.imgDetails {
+  align-self: center;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.btnStart {
+  bottom: 0;
+  position: fixed;
+}
+
+.div-recomend {
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+
+.scrollh {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.item-card {
+  margin-right: 5px;
+  min-height: 200px;
+  min-width: 49%;
+  scroll-snap-align: center;
+}
+
+.imgRecomends {
+  align-items: center;
+  width: 170px;
+}
+
+.secDetails {
+  background-image: url('../images/backgound.png');
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.divBtnStart {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.youtube {
+  height: 32vh;
+  width: 100%;
+}
+
+.btnFavoriteAndShare {
+  display: flex;
+  margin-top: 10px;
+}

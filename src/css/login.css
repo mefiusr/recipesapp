@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: Bellota Text , cursive , sans-serif;
+  margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&family=Crimson+Text&family=Fredoka+One&family=Share+Tech+Mono&family=Source+Code+Pro:wght@300&display=swap') ;
+
+@media screen and ( max-width : 360px ) {
+
+  .secLogin {
+    background-image: url('../images/login.png');
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia , Times New Roman , Times , serif;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .divEmailAndPass {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    width: 100%;
+  }
+
+  .inputsLogin {
+    height: 5vh;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .btnLogin {
+    border-radius: 6px;
+    height: 5vh;
+    margin-left: 120px;
+    width: 30%;
+  }
+
+  .btnLogin:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}

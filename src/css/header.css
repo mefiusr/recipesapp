@@ -1,0 +1,54 @@
+.header {
+  background-color: #ed800e;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  height: auto;
+  justify-content: space-around;
+  padding: 5px;
+  text-align: center;
+}
+
+.searchHeader {
+  width: 100%;
+}
+
+.btnHeader {
+  display: flex;
+  font-weight: 700;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+
+.btn-header {
+  background-color: #366e1e;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
+  height: auto;
+}
+
+.btns:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.inputSearchHeader {
+  border-radius: 6px;
+  font-weight: 700;
+  height: 30px;
+  margin-top: 12px;
+  padding: 5px;
+}
+
+.inputsRadio {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btnAll {
+  font-weight: 700;
+  margin-top: 8px;
+  width: 100%;
+}

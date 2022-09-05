@@ -1,0 +1,14 @@
+h2 {
+  text-align: center;
+}
+
+.btn-profile {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.sec-profile {
+  background-image: url('../images/backgound.png');
+  height: 100vh;
+}
