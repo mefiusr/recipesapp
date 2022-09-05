@@ -134,8 +134,8 @@ class Recipes extends Component {
             >
 
               <Link
-                to={ url.includes('foods') ? `/foods/${recipe.idMeal}`
-                  : `/drinks/${recipe.idDrink}` }
+                to={ url.includes('foods') ? `/recipesapp/foods/${recipe.idMeal}`
+                  : `/recipesapp/drinks/${recipe.idDrink}` }
               >
                 <h4 data-testid={ `${index}-card-name` }>
                   {recipe.strMeal || recipe.strDrink}
