@@ -1,3 +1,5 @@
+@media screen and ( max-width : 360px ) {
+
 h2 {
   text-align: center;
 }
@@ -11,4 +13,6 @@ h2 {
 .sec-profile {
   background-image: url('../images/backgound.png');
   height: 100vh;
+}
+
 }
