@@ -14,23 +14,23 @@ import DrinkInProgrees from "./pages/DrinkInProgress";
 function App() {
   return (
     <Switch>
-      <Route exact path="/" render={(props) => <Login {...props} />} />
-      <Route exact path="/foods" render={(props) => <Foods {...props} />} />
-      <Route exact path="/drinks" component={Drinks} />
-      <Route exact path="/foods/:id" component={Food} />
-      <Route exact path="/drinks/:id" component={Drink} />
+      <Route exact path="/recipesapp" render={(props) => <Login {...props} />} />
+      <Route exact path="/recipesapp/foods" render={(props) => <Foods {...props} />} />
+      <Route exact path="/recipesapp/drinks" component={Drinks} />
+      <Route exact path="/recipesapp/foods/:id" component={Food} />
+      <Route exact path="/recipesapp/drinks/:id" component={Drink} />
       <Route
         exact
-        path="/foods/:id/in-progress"
+        path="/recipesapp/foods/:id/in-progress"
         render={(props) => <FoodInProgrees {...props} />}
       />
       <Route
-        path="/drinks/:id/in-progress"
+        path="/recipesapp/drinks/:id/in-progress"
         render={(props) => <DrinkInProgrees {...props} />}
       />
-      <Route path="/profile" component={Profile} />
-      <Route path="/done-recipes" component={DoneRecipes} />
-      <Route path="/favorite-recipes" component={FavoriteRecipes} />
+      <Route path="/recipesapp/profile" component={Profile} />
+      <Route path="/recipesapp/done-recipes" component={DoneRecipes} />
+      <Route path="/recipesapp/favorite-recipes" component={FavoriteRecipes} />
     </Switch>
   );
 }
