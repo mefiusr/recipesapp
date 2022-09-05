@@ -26,19 +26,19 @@ class Header extends Component {
     const { url } = this.props;
 
     switch (url) {
-    case '/foods':
+    case '/recipesapp/foods':
       this.setState({ title: 'Foods', showSearchIcon: true });
       break;
-    case '/drinks':
+    case '/recipesapp/drinks':
       this.setState({ title: 'Drinks', showSearchIcon: true });
       break;
-    case '/done-recipes':
+    case '/recipesapp/done-recipes':
       this.setState({ title: 'Done Recipes', showSearchIcon: false });
       break;
-    case '/profile':
+    case '/recipesapp/profile':
       this.setState({ title: 'Profile', showSearchIcon: false });
       break;
-    case '/favorite-recipes':
+    case '/recipesapp/favorite-recipes':
       this.setState({ title: 'Favorite Recipes', showSearchIcon: false });
       break;
     default:
@@ -63,7 +63,7 @@ class Header extends Component {
             type="button"
             data-testid="profile-top-btn"
             src={ profileIcon }
-            onClick={ () => history.push('/profile') }
+            onClick={ () => history.push('/recipesapp/profile') }
           >
             <img src={ profileIcon } alt="Profile" />
           </button>

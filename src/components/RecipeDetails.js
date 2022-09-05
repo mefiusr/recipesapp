@@ -202,7 +202,7 @@ class RecipeDetails extends Component {
               </div>
             </div>
             {renderButton && (
-              <Link to={ `${id}/in-progress` }>
+              <Link to={ `/recipesapp/${id}/in-progress` }>
                 <div className="divBtnStart">
                   <button
                     className="btnStart"

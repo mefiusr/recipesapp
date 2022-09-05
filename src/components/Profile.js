@@ -29,7 +29,7 @@ export default class Profile extends Component {
   logout = () => {
     const { history } = this.props;
     localStorage.clear();
-    history.push('/');
+    history.push('/recipesapp');
   }
 
   render() {
@@ -45,7 +45,7 @@ export default class Profile extends Component {
             <button
               type="button"
               data-testid="profile-done-btn"
-              onClick={ () => history.push('/done-recipes') }
+              onClick={ () => history.push('/recipesapp/done-recipes') }
             >
               Done Recipes
 
@@ -53,7 +53,7 @@ export default class Profile extends Component {
             <button
               type="button"
               data-testid="profile-favorite-btn"
-              onClick={ () => history.push('/favorite-recipes') }
+              onClick={ () => history.push('/recipesapp/favorite-recipes') }
             >
               Favorite Recipes
 

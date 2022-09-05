@@ -166,7 +166,7 @@ class SearchBar extends Component {
           )}
 
         </div>
-        <hr className="hrX" />
+        <hr />
       </>
     );
   }

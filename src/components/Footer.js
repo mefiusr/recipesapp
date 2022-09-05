@@ -15,7 +15,7 @@ export default class Footer extends Component {
             type="button"
             data-testid="drinks-bottom-btn"
             src={ drinkIcon }
-            onClick={ () => history.push('/drinks') }
+            onClick={ () => history.push('/recipesapp/drinks') }
           >
             <img src={ drinkIcon } alt="Drink Icon" />
           </button>
@@ -24,7 +24,7 @@ export default class Footer extends Component {
             type="button"
             data-testid="food-bottom-btn"
             src={ mealIcon }
-            onClick={ () => history.push('/foods') }
+            onClick={ () => history.push('/recipesapp/foods') }
           >
             <img src={ mealIcon } alt="Meal Icon" />
           </button>

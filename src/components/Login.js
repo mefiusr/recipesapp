@@ -38,7 +38,7 @@ class Login extends Component {
     localStorage.setItem('user', emailPerson);
     localStorage.setItem('mealsToken', 1);
     localStorage.setItem('cocktailsToken', 1);
-    history.push('/foods');
+    history.push('/recipesapp/foods');
   }
 
   render() {
