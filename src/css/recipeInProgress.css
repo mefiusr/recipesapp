@@ -4,4 +4,12 @@
   text-decoration: none solid black;
 }
 
+.recipesInProgress {
+  background-image: url('../images/backgound.png');
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
 }

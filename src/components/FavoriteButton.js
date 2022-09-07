@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import whiteHeartIcon from '../images/whiteHeartIcon.png';
-import blackHeartIcon from '../images/blackHeartIcon.svg';
+import blackHeartIcon from '../images/blackHeartIcon.jpeg';
 
 class FavoriteButton extends Component {
   constructor() {

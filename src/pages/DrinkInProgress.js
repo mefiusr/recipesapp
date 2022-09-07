@@ -5,7 +5,6 @@ export default class DrinkInProgress extends Component {
   render() {
     return (
       <>
-        <div>DrinkInProgress</div>
         <RecipeInProgress />
       </>
     );

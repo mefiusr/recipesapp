@@ -126,7 +126,6 @@ class RecipeDetails extends Component {
 
   render() {
     const { url, recipes, id } = this.props;
-    console.log(url)
     const { ingredients, measures, recomends, renderButton, btnInProgess } = this.state;
 
     return (
@@ -146,8 +145,8 @@ class RecipeDetails extends Component {
             />
             <hr />
             <p data-testid="recipe-category">
-              {url.includes('drinks') ? `${recipe.strCategory} - ${recipe.strAlcoholic}`
-                : `${recipe.strCategory}`}
+              {url.includes('drinks') ? `Category: ${recipe.strCategory} - ${recipe.strAlcoholic}`
+                : `Category: ${recipe.strCategory}`}
             </p>
 
             {ingredients && ingredients.map((ingredient, index2) => (
@@ -203,7 +202,7 @@ class RecipeDetails extends Component {
               </div>
             </div>
             {renderButton && (
-              <Link to={ `/recipesapp/${id}/in-progress` }>
+              <Link to={ `${url}/in-progress` }>
                 <div className="divBtnStart">
                   <button
                     className="btnStart"
