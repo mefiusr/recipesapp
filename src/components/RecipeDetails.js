@@ -126,6 +126,7 @@ class RecipeDetails extends Component {
 
   render() {
     const { url, recipes, id } = this.props;
+    console.log(url)
     const { ingredients, measures, recomends, renderButton, btnInProgess } = this.state;
 
     return (

@@ -24,6 +24,7 @@ class RecipeInProgress extends Component {
 
   fetchIds = async () => {
     const url = window.location.pathname;
+    console.log(url)
     const id = url.split('/');
 
     if (url.includes('foods')) {
@@ -135,7 +136,7 @@ class RecipeInProgress extends Component {
         ))}
         <FavoriteButton url={ url } id={ id[2] } />
         <ShareButton url={ `${id[0]}/${id[1]}/${id[2]}` } id={ id } />
-        <Link to="/done-recipes">
+        <Link to="/recipesapp/done-recipes">
           <button
             type="button"
             data-testid="finish-recipe-btn"
