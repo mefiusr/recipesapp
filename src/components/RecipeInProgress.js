@@ -109,7 +109,7 @@ class RecipeInProgress extends Component {
     const url = window.location.pathname;
     const id = url.split("/");
     return (
-      <section>
+      <section className="recipesInProgress">
         {fetchInitial &&
           fetchInitial.map((recipe, index) => (
             <section key={index} className="recipesInProgress">
@@ -136,7 +136,7 @@ class RecipeInProgress extends Component {
                     fetchInitial[0][ingredient] !== "" &&
                     fetchInitial[0][measures[index2]] !== " " &&
                     fetchInitial[0][measures[index2]] !== null && (
-                      <div key={index2}>
+                      <div key={index2} className='checkboxes'>
                         <label
                           htmlFor="ingredients"
                           data-testid={`${index2}-ingredient-step`}
@@ -156,7 +156,7 @@ class RecipeInProgress extends Component {
                 )}
               <hr />
 
-              <p data-testid="instructions">{`Instructions: ${recipe.strInstructions}`}</p>
+              <p data-testid="instructions" className='pInstruction'>{`Instructions: ${recipe.strInstructions}`}</p>
             </section>
           ))}
         <div className="btnFavoriteAndShare">
@@ -164,6 +164,7 @@ class RecipeInProgress extends Component {
           <ShareButton url={`/${id[1]}/${id[2]}/${id[3]}`} id={id} />
         </div>
         <Link to="/recipesapp/done-recipes">
+          <div className="divBtnStart">
           <button
             type="button"
             data-testid="finish-recipe-btn"
@@ -171,6 +172,7 @@ class RecipeInProgress extends Component {
           >
             Finish recipe
           </button>
+          </div>
         </Link>
       </section>
     );

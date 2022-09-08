@@ -62,7 +62,7 @@ h1 {
 .btnFavoriteAndShare {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .pInstruction {
