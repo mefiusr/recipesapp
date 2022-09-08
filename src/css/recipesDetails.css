@@ -17,6 +17,7 @@ h1 {
 
 .div-recomend {
   font-weight: 700;
+  margin-bottom: 5px;
   text-align: center;
   width: 100%;
 }
@@ -60,7 +61,21 @@ h1 {
 
 .btnFavoriteAndShare {
   display: flex;
+  justify-content: space-between;
   margin-top: 10px;
+}
+
+.pInstruction {
+  padding: 5px;
+}
+
+.spam {
+  background-color: white;
+  border-radius: 6px;
+  color: black;
+  height: 25px;
+  text-align: center;
+  width: 110px;
 }
 
 }

@@ -162,24 +162,21 @@ class RecipeDetails extends Component {
 
             )) }
             <hr />
-            <p data-testid="instructions">
+            <p className='pInstruction' data-testid="instructions">
               {`Instructions: ${recipe.strInstructions}`}
             </p>
 
-            {url.includes('foods') ? (
-              <iframe
+            {recipe.strYoutube ? (<iframe
                 className="youtube"
                 data-testid="video"
                 src={ `${recipe.strYoutube.replace('watch?v=', 'embed/')}` }
                 title="Vídeo"
                 allowFullScreen
-              />
-            ) : (
-              ''
-            )}
+              />) : ''}
+
             <hr />
             <div className="div-recomend">
-              <h4>Recomendation</h4>
+              <h4>Suggestions</h4>
               <div className="scrollh">
                 {recomends
                     && recomends.map((recomend, index3) => (

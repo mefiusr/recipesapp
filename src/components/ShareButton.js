@@ -22,6 +22,7 @@ export default class ShareButton extends Component {
      const { copied } = this.state;
      return (
        <>
+           {copied && (<div className='spam'><span >Link copied!</span></div>)}
          <button
            type="button"
            data-testid="share-btn"
@@ -29,7 +30,6 @@ export default class ShareButton extends Component {
          >
            <img src={ shareIcon } alt="Button Share" />
          </button>
-         {copied && <span>Link copied!</span>}
        </>
      );
    }

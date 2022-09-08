@@ -7,6 +7,7 @@ a {
 
 h4 {
   font-weight: 700;
+  text-align: center;
 }
 
 h4:hover {
@@ -41,6 +42,7 @@ h4:hover {
   justify-content: center;
   margin: 6px 1px;
   padding: 5px;
+  height: auto;
 }
 
 }

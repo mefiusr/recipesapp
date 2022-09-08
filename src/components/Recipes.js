@@ -140,14 +140,14 @@ class Recipes extends Component {
                 <h4 data-testid={ `${index}-card-name` }>
                   {recipe.strMeal || recipe.strDrink}
                 </h4>
-              </Link>
 
               <img
                 className="imgRecipes"
                 data-testid={ `${index}-card-img` }
                 src={ recipe.strMealThumb || recipe.strDrinkThumb }
                 alt="Recipe"
-              />
+                />
+                </Link>
 
             </div>
           ))}
