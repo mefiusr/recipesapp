@@ -26,7 +26,9 @@ Um app para você pesquisar varias receitas de comidas e bebidas.
 
 ## :computer: Layout Desenvolvido
 
-[image](https://user-images.githubusercontent.com/83560101/193646322-7e6833da-ead4-4fd0-bfef-b8662a5eca24.png)
+![image](https://user-images.githubusercontent.com/83560101/193646322-7e6833da-ead4-4fd0-bfef-b8662a5eca24.png)
+![image](https://user-images.githubusercontent.com/83560101/193646601-ad210dd0-9b1b-4c9d-ab4c-cc29cf884d6c.png)
+![image](https://user-images.githubusercontent.com/83560101/193646708-34c5d33a-e5cb-4f15-b65c-55edf2791898.png)
 
 ## 📁 Acessar Projeto Localmente
 
