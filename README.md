@@ -5,6 +5,7 @@ Um app para você pesquisar varias receitas de comidas e bebidas.
 ## :link: Link Aplicação 
 - Acesse o site clicando no [**LINK**](https://mathews-r.github.io/recipesapp/).
 - Obs.: Utilizar a resolução 360x640 para uma melhor experiência.
+- Projeto concluído em 80%.
 
 ## ⚙️ Funcionalidades
 ✅ Formulário de login;
