@@ -36,7 +36,7 @@ Um app para você pesquisar varias receitas de comidas e bebidas.
 - *Clonar o repositório:*
 
 ```
-$ git clone
+$ git clone git@github.com:mathews-r/recipesapp.git
 ```
 
 - *Acessar o projeto recipesapp:*
