@@ -11,6 +11,8 @@ import Drink from "./pages/Drink";
 import FoodInProgrees from "./pages/FoodInProgress";
 import DrinkInProgrees from "./pages/DrinkInProgress";
 
+import './css/responsive.css';
+
 function App() {
   return (
     <Switch>

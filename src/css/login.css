@@ -10,6 +10,7 @@
 
   .secLogin {
     background-image: url('../images/login.png');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     font-family: Georgia , Times New Roman , Times , serif;
