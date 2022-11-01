@@ -1,4 +1,4 @@
-@media screen and ( max-width : 360px ) {
+@media screen and ( max-width : 2560px ) {
 
 a {
   color: inherit;
@@ -16,8 +16,8 @@ h4:hover {
 
 .imgRecipes {
   border-radius: 5px;
-  height: 200px;
-  width: 200px;
+  height: 500px;
+  width: 500px;
 }
 
 .sectionRecipes {
@@ -45,4 +45,11 @@ h4:hover {
   height: auto;
 }
 
+}
+
+@media screen and (max-width: 425px ) {
+  .imgRecipes {
+    height: 200px;
+    width: 200px;
+  }
 }

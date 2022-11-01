@@ -1,4 +1,4 @@
-@media screen and ( max-width : 360px ) {
+@media screen and ( max-width : 2560px ) {
 
 .header {
   background-color: #ed800e;
@@ -52,7 +52,7 @@
 .btnAll {
   font-weight: 700;
   margin-top: 40px;
-  width: 90%;
+  width: 100vw;
 }
 
 }

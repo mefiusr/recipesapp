@@ -6,7 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&family=Crimson+Text&family=Fredoka+One&family=Share+Tech+Mono&family=Source+Code+Pro:wght@300&display=swap') ;
 
-@media screen and ( max-width : 360px ) {
+@media screen and ( max-width : 2560px ) {
 
   .secLogin {
     background-image: url('../images/login.png');
@@ -35,7 +35,7 @@
   .btnLogin {
     border-radius: 6px;
     height: 5vh;
-    margin-left: 120px;
+    margin-left: 35%;
     width: 30%;
   }
 
